@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Onboard"
-  s.version      = "2.3.3"
+  s.version      = "2.4.0"
   s.summary      = "Create a beautiful and engaging onboarding experience with only a few lines of code."
   s.homepage     = "https://github.com/mamaral/Onboard"
   s.license      = "MIT"
@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/mamaral/Onboard.git", :tag => "v2.3.3" }
   s.source_files  = "Source/OnboardingViewController.{h,m}", "Source/OnboardingContentViewController.{h,m}"
   s.requires_arc = true
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
 
 end
